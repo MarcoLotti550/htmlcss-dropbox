@@ -6,11 +6,11 @@
     scroll-behavior: smooth;
 }
 /* nav */
-header nav{
+nav{
     width: 100%;
     min-height: 80px;
     vertical-align: center;
-    position: sticky;
+    position: fixed;
     position: -webkit-sticky;
     top: 0%;
     background: #fff;
@@ -52,16 +52,15 @@ header nav::after {
 }
 /* jumbo */
 .jumbotron{
-    position: relative;
-    z-index: -1;
     width: 100%;
     min-height: 750px;
     background: rgb(208, 219, 252);
+    margin-top: 80px;
 }
 .container{
     width: 80%;
     margin: 0 auto;
-    padding-top: 100px;
+    padding: 100px 0;
 }
 /* dimensione immagine */
 .jumbo img{
@@ -195,4 +194,36 @@ h3{
     clear: both;
     display: block;
     content: "";
+}
+/* sezione partner */
+.container3{
+    width: 100%;
+    min-height: 600px;
+    margin: 100px 0;
+}
+.sx1 img{
+    width: 700px;
+}
+.sx1{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.dx1{
+    width: 35%;
+    height: 100%;
+    float: right;
+}
+.dx1 h1{
+    margin: 40px 0 30px 0;
+}
+.dx1 p{
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+.partner{
+    width: 100%;
+    padding: 10px  20px;
+    border: 1px solid black;
 }
