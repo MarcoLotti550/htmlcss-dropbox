@@ -3,3 +3,27 @@
     padding: 0%;
     box-sizing: border-box;
 }
+header nav{
+    width: 100%;
+    min-height: 80px;
+    vertical-align: center;
+    background: red;
+}
+nav a{
+    text-decoration: none;
+}
+nav ul li,
+nav ul{
+    display: inline-block;
+}
+.sx{
+    float: left;
+}
+.dx{
+    float: right;
+}
+header nav::after {
+    clear: both;
+    display: block;
+    content: "";
+}
