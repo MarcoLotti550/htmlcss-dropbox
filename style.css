@@ -89,7 +89,7 @@ header nav::after {
     font-size: 40px;
 }
 /* inizio main con i piani di acquisto */
-main{
+.centratura-main{
     width: 65%;
     margin: 150px auto;
 }
@@ -243,4 +243,67 @@ h3{
 }
 .card-text h2{
     margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #000000;
+    width: 100%;
+    height: 500px;
+}
+.info-link{
+    width: 70%;
+    margin: auto;
+    padding: 80px 0;
+}
+.colonna{
+    margin: 0 15px;
+    width: 15%;
+    display: inline-block;
+}
+.colonna li{
+    font-size: 13px;
+    margin: 10px;
+}
+.info-link h4{
+    font-weight: 800;
+    margin-bottom: 20px;
+}    
+.info-link ul{
+    list-style-type: none;
+    color: #fff;
+    vertical-align: top;
 }
