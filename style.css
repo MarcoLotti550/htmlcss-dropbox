@@ -15,10 +15,10 @@ header nav{
     top: 0%;
     background: #fff;
 }
-a{
+a:not(.acquista){
     text-decoration: none;
 }
-a:visited:not(.pulsante){
+a:visited:not(.pulsante, .pulsante-piano, .acquista){
     color: #000;
 }
 nav ul li,
@@ -97,6 +97,55 @@ main{
 #piani span{
     margin-right: 15px;
 }
+.piano-di-acquisto .titolo-piano{
+    text-align: center;
+    padding: 5px 0;
+    border-bottom: 1px solid lightgray;
+}
+.centro{
+    width: 85%;
+    margin: 0 auto;
+}
+.piano-di-acquisto{
+    width: 300px;
+    min-height: 1000px;
+    border: 1px solid lightgray;
+    margin: 30px 0;
+}
+#piani h1{
+    margin: 50px 0;
+    font-size: 40px;
+}
+.info-piano{
+    margin: 40px 0;
+}
+.info-piano p{
+    margin: 20px 0;
+}
+h3{
+    margin: 15px 0;
+}
+.nome-piano{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.nome-piano p:last-child{
+    color: gray;
+}
+.acquisto-piano{
+    margin: 50px 0;
+}
+
+.pulsante-piano{
+    width: 100%;
+    background: rgb(0, 68, 255);
+    padding: 8px  35px;
+    color: #fff;
+}
+.acquista{
+    color: rgb(0, 68, 255);
+}
 .acquisto-piano span{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 15px;
 }
